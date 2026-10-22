@@ -1,11 +1,9 @@
-# ── HANAMI WEB · .gitignore ──────────────────────────
-# Static site — source files only, no build cache.
+# ── HANAMI WEB · .gitignore ──
+# Static site portfolio showcase
 
-# OS / editor cruft
+# OS
 .DS_Store
 Thumbs.db
-.desktop
-*.lnk
 
 # Editors
 .vscode/
@@ -17,15 +15,14 @@ Thumbs.db
 # Logs
 *.log
 
-# Node (in case dependencies are added later)
+# Dependencies (future-proof)
 node_modules/
 package-lock.json
 
-# Build output (none currently, but future-proof)
+# Build output
 dist/
-.git/
 
-# Secrets
-.env
-.env.local
-*.key
+# Backups & scripts
+*.backup.*
+_check_*.ps1
+_run_*.ps1
